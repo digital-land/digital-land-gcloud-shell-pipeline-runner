@@ -84,14 +84,18 @@
 ### IMPORTANT NOTES
 
 -----
- **NOTE 1**: If you went away and your Google Cloud Shell timed out you will need to prepare/activate 
+ **NOTE 1** : cloud shell time-out and dependencies
+
+ If you went away and your Google Cloud Shell timed out you will need to prepare/activate 
  the dependencies again, to do so repeat steps from 04 onwards. This happens because cloud shell
  is run on a free VM from google cloud, when it times out it clears your VM and when you come back
  you get a new VM. Because some parts of the dependencies are installed in the OS level this means
  some dependencies got lost and need to be restored. All will work fine if you start from step 04. 
 
 -----
- **NOTE 2**: All steps from 05 onwards need to be run inside a virtual 
+ **NOTE 2** : virtual environment
+ 
+ All steps from 05 onwards need to be run inside a virtual 
  environment because the dependencies were installed in it to avoid 
  conflicts. The easy way to check if you are in a virtual env is by looking 
  at your terminal, it should show your the name of this repo inside parantheses as the 
@@ -106,7 +110,9 @@ folder 'digital-land-gcloud-shell-pipeline-runner' and run the following to fix 
     pipenv shell
     
 -----
-**NOTE 3**: If you want to clean the pipeline/collection state to run a new collection or pipeline, you don't need
+**NOTE 3** : cleaning state
+
+If you want to clean the pipeline/collection state to run a new collection or pipeline, you don't need
 to run the installation steps again (unless your cloud shell timed out). All you need do do is run: 
 
     bash 06-clean-collection.sh        
@@ -114,10 +120,14 @@ to run the installation steps again (unless your cloud shell timed out). All you
 and then repeat all steps from 06 onwards.
 
 -----
-**NOTE 4**: Please note that at the present stage the scripts are only a collection of bash commands executed in a specific order, this means that the prints you see on the screen when the script is running (e.g. 'Variables setting step completed') don't imply the step completed without errors, it just means the code was executed up to that point, errors should show in the terminal as they happen.
+**NOTE 4** : stage completion msgs
+
+Please note that at the present stage the scripts are only a collection of bash commands executed in a specific order, this means that the prints you see on the screen when the script is running (e.g. 'Variables setting step completed') don't imply the step completed without errors, it just means the code was executed up to that point, errors should show in the terminal as they happen.
 
 -----
-**NOTE 5**: If you ever want a completely fresh cloud shell instance to start from scratch, all you have to do is run:
+**NOTE 5** : cloud shell - reset factory settings
+
+If you ever want a completely fresh cloud shell instance to start from scratch, all you have to do is run:
 
     sudo rm -rf $HOME
 And then click on the 3 dots (...) on the top right corner of your screen and select 'restart'.
