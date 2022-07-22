@@ -21,8 +21,8 @@
          
     (henrique_farina) henrique_farina@cloudshell:~$
     this means:
-    (folder_where_an_virtual_env_is_active) user@cloudshell::~$
-If you don't see the () part, it means you are not inside the virtual env, run step 05 again to correct it.
+    (folder_where_a_virtual_env_is_active) user@cloudshell::~$
+If you don't see the (parantheses) part, it means you are not inside the virtual env, run step 05 to correct it.
 
 -----
 **NOTE 3**: If you want to clean the pipeline/collection state to run a new collection or pipeline, you don't need
@@ -33,13 +33,14 @@ to run the installation steps again (unless your cloud shell timed out). All you
 and then repeat all steps from 06 onwards.
 
 -----
-**NOTE 4**: Please note that at the present stage the scripts are only a collection of bash commands executed in a specific order, this means that the prints you see on the screen when the script is running (e.g. '-------- Variables setting step completed') don't imply the step completed without, it just means the code up to that step was executed, errors should show on the terminal as they happen.
+**NOTE 4**: Please note that at the present stage the scripts are only a collection of bash commands executed in a specific order, this means that the prints you see on the screen when the script is running (e.g. 'Variables setting step completed') don't imply the step completed without errors, it just means the code was executed up to that point, errors should show on the terminal as they happen.
 
 -----
 
 <p>&nbsp;</p>
 
 ## STEPS TO RUN THE PIPELINE LOCALLY ON CLOUD SHELL
+
 
 <p>&nbsp;</p>
 
