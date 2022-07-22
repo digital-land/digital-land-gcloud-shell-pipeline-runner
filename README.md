@@ -55,10 +55,10 @@ Some of the OS dependency installations will ask for your confirmation to procee
     
     (Note: to get the resource name-hash it is easier if you right click on the file and select 'Copy path' and than get rid of the folder, keeping only the hash)
 
-            For example, from:
+        For example, from:
             /home/henrique_farina/collection/resource/6c961fcd2c76a1602a98f309dc7bffe4323b3192bb839c9c773b4365f9a2ec41
     
-            You would fill in:    
+        You would fill in:    
             RESOURCE='6c961fcd2c76a1602a98f309dc7bffe4323b3192bb839c9c773b4365f9a2ec41'
     
 
@@ -118,7 +118,7 @@ and then repeat all steps from 06 onwards.
 -----
 **NOTE 5**: If you ever want a completely fresh cloud shell instance to start from scratch, all you have to do is run:
 
-                sudo rm -rf $HOME
+    sudo rm -rf $HOME
 And then click on the 3 dots (...) on the top right corner of your screen and select 'restart'.
 
 Note that you will leave any files stored in your cloud shell IDE, so make sure you save anything you want to keep locally.
