@@ -4,7 +4,7 @@
 export PATH="/home/henrique_farina/.local/bin:$PATH"
 
 # install dependencies
-cd digital-land-python 
+cd ~/digital-land-python 
 make init
 
 # check digital-land CLI is available

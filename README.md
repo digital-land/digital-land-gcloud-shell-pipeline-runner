@@ -10,7 +10,13 @@
 
 02. Click 'Open home workspace'
 
-03. Upload the files of this repo: file > upload files > select all .sh files in this repo.
+03. Clone this repo with:
+
+        git clone https://github.com/digital-land/digital-land-gcloud-shell-pipeline-runner.git
+
+04. Change directory to inside this repo's folder:
+
+        cd digital-land-gcloud-shell-pipeline-runner
 
 04. To install all dependencies run:
 
@@ -92,9 +98,9 @@
  first thing on the left of the active line. My home folder is 'henrique_farina', 
  so I see:
          
-    (henrique_farina) henrique_farina@cloudshell:~$
+    (digital-land-gcloud-shell-pipeline-runner) henrique_farina@cloudshell:
     this means:
-    (folder_where_a_virtual_env_is_active) user@cloudshell::~$
+    (folder_where_a_virtual_env_is_active) user@cloudshell:
 If you don't see the (parantheses) part, it means you are not inside the virtual env, run step 05 to correct it.
 
 -----

@@ -8,13 +8,16 @@ curl -qfsL 'https://raw.githubusercontent.com/digital-land/digital-land-python/b
 
 echo '-------- Clone step completed'
 
-# install pipenv to take care of environments
-cd digital-land-python
+# install pipenv
 pip3 install pipenv
+
+# create virtual environment
+cd ~/digital-land-gcloud-shell-pipeline-runner
 python3 -m pipenv install
 export PATH="/home/henrique_farina/.local/bin:$PATH"
 echo '-------- Pipenv step completed'
 
-# HAVE TO SEND NEXT COMMANDS TO INSIDE THE ENV SHELL
-cd $home
+# install all dependencies in the virtual env
 pipenv run bash 02-prepare-dependencies.sh
+
+pipenv shell
