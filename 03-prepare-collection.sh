@@ -26,4 +26,8 @@ curl -qfsL 'https://raw.githubusercontent.com/digital-land/'$COLLECTION_REPO_NAM
 mkdir -p var/cache
 curl -qfsL 'https://raw.githubusercontent.com/digital-land/organisation-dataset/main/collection/organisation.csv' > var/cache/organisation.csv
 
+# Copy specification folder from the digital-land-python folder to the pipeline runner folder
+cp -a ~/digital-land-python/specification/. ~/digital-land-gcloud-shell-pipeline-runner/specification/
+
+
 echo '-------- Piperunner preparation step completedß for '$COLLECTION_REPO_NAME
