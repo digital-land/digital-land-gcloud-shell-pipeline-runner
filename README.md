@@ -14,9 +14,10 @@
 -----
  **NOTE 2**: All steps from 05 onwards need to be run inside a virtual 
  environment because the dependencies were installed inside it to avoid 
- conflicts. The easy way to check if are in a virtual env is by looking at your 
- terminal, it should show your home folder inside parantheses as the first 
- thing at the active line. My home folder is 'henrique_farina', so I see:
+ conflicts. The easy way to check if you are in a virtual env is by looking 
+ at your terminal, it should show your home folder inside parantheses as the 
+ first thing on the left of the active line. My home folder is 'henrique_farina', 
+ so I see:
          
     (henrique_farina) henrique_farina@cloudshell:~$
     this means:
