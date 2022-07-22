@@ -68,8 +68,9 @@
 
 ## Now you should be able to:
    
-    a. See any errors in your terminal as the pipeline runs
-    b. Check any intermediate files and logs in you file explorer, these folders should be of your interest:
+### a. See any errors in your terminal as the pipeline runs
+    
+### b. Check any intermediate files and logs using the cloud shell file explorer, these folders should be of your interest:
             collection/resource
             collection/log
             transformed/
