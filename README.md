@@ -33,7 +33,7 @@ to run the installation steps again (unless your cloud shell timed out). All you
 and then repeat all steps from 06 onwards.
 
 -----
-**NOTE 4**: Please note that at the present stage the scripts are only a collection of bash commands executed in a specific order, this means that the prints you see on the screen when the script is running (e.g. 'Variables setting step completed') don't imply the step completed without errors, it just means the code was executed up to that point, errors should show on the terminal as they happen.
+**NOTE 4**: Please note that at the present stage the scripts are only a collection of bash commands executed in a specific order, this means that the prints you see on the screen when the script is running (e.g. 'Variables setting step completed') don't imply the step completed without errors, it just means the code was executed up to that point, errors should show in the terminal as they happen.
 
 -----
 
