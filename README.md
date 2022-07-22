@@ -44,11 +44,11 @@ and then repeat all steps from 06 onwards.
 
 <p>&nbsp;</p>
 
-01. Start your cloud shell env by going to: https://shell.cloud.google.com/
+01. Start your cloud shell by going to: https://shell.cloud.google.com/
 
-02. Open home workspace
+02. Click 'Open home workspace'
 
-03. Upload files: file > upload files > files 00 to 06
+03. Upload the files of this repo: file > upload files > select all .sh files in this repo.
 
 04. To install all dependencies run:
 
