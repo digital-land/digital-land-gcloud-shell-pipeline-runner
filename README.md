@@ -1,4 +1,4 @@
-## DIGITAL LAND : Running pipelines locally in cloud shell  
+## DIGITAL LAND : Run pipelines locally in google cloud shell  
 
 <p>&nbsp;</p> 
 
