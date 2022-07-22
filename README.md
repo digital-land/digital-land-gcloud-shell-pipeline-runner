@@ -21,6 +21,7 @@
 05. To install all dependencies run:
 
         bash 01-package-clone-and-general-setup.sh     
+Some of the OS dependency installations will ask for your confirmation to proceed, please type Y + <enter> when asked.
 
 06. Note that all steps from here onwards should run inside a virtual environment, for more details on how to make sure this is the case and correct if not please see Note 2 at the end of this file.
 
