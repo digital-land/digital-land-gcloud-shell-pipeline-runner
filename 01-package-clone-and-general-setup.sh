@@ -9,7 +9,7 @@ pip3 install pipenv
 # create virtual environment
 cd ~/digital-land-gcloud-shell-pipeline-runner
 python3 -m pipenv install
-export PATH="/home/henrique_farina/.local/bin:$PATH"
+export PATH="~/.local/bin:$PATH"
 echo '-------- Pipenv step completed'
 
 # install all dependencies in the virtual env

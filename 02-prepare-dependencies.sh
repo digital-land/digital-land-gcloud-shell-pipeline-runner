@@ -1,7 +1,7 @@
 # This script is called automatically by 01-package-clone-and-general-setup.sh
 
 # make sure binaries folder acessible on path
-export PATH="/home/henrique_farina/.local/bin:$PATH"
+export PATH="~/.local/bin:$PATH"
 
 # install dependencies
 cd ~/digital-land-python 
