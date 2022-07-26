@@ -44,6 +44,11 @@
 
         bash 04-collect-resources.sh
     (Note: this step is able to collect several resources at once and they all will be saved at collection/resource and the logs of the collection will be saved at collection/log/)
+    
+    (Note: If you need to rerun the collection, you will need to erase the entry for today in the collection/log/ directory)    
+
+        For example, to rerun on 2022-07-26:
+            rm collection/log/2022-07-26/*
 
 11. This step allow you to proccess only one resource at a time. To do so you will need to fill in a few variables inside the file '05-run-pipeline-transformations.sh'. If you need to process more than one resource you will need to repeat this step each time with the appropriate variables:
     
