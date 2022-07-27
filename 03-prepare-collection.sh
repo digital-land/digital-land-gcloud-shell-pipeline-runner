@@ -30,4 +30,4 @@ curl -qfsL 'https://raw.githubusercontent.com/digital-land/organisation-dataset/
 cp -a ~/digital-land-python/specification/. ~/digital-land-gcloud-shell-pipeline-runner/specification/
 
 
-echo '-------- Piperunner preparation step completedß for '$COLLECTION_REPO_NAME
+echo '-------- Piperunner preparation step completed for '$COLLECTION_REPO_NAME
